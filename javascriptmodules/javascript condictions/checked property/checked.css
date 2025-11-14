@@ -1,0 +1,12 @@
+body {
+  background-color: darkgreen;
+  color: rgb(132, 139, 146);
+  display: block;
+  font-size: 2em;
+}
+button {
+  background-color: rgb(240, 216, 120);
+  color: rgb(150, 139, 139);
+  font-size: 1em;
+  border-radius: 8px;
+}
