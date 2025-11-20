@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="checked.css" />
   </head>
   <body>
-    <!-- we use the name attribite to ensure one checkbox is checked-->
-    <label for="check" id="subscribe" name="card">Subscribe</label>
-    <input type="checkbox" id="mycheckbox" name="card" /><br />
-    <label for="visa">Visa</label>
-    <input type="radio" id="visa" name="card" /><br />
-    <label for="Mastercard">Mastercard</label>
-    <input type="radio" id="Mastercard" name="card" /><br />
-    <label for="paypal">paypal</label>
-    <input type="radio" id="paypal" name="card" /><br />
-    <button for="submit" id="submit">Submit</button>
-    <p id="subresults"></p>
-    <p id="payment"></p>
+    <div id="container">
+      <h3>Payment details</h3>
+      <!-- we use the name attribite to ensure one checkbox is checked-->
+      <label for="check" id="subscribe" name="card">Subscribe</label>
+      <input type="checkbox" id="mycheckbox" name="card" /><br />
+      <label for="visa">Visa</label>
+      <input type="radio" id="visa" name="card" /><br />
+      <label for="Mastercard">Mastercard</label>
+      <input type="radio" id="Mastercard" name="card" /><br />
+      <label for="paypal">paypal</label>
+      <input type="radio" id="paypal" name="card" /><br />
+      <button for="submit" id="submit">Submit</button>
+      <p id="subresults"></p>
+      <p id="payment"></p>
+    </div>
     <script src="checked.js"></script>
   </body>
 </html>

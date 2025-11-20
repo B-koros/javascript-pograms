@@ -1,0 +1,51 @@
+body {
+  background-color: #003566;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#M {
+  color: #d00000;
+}
+header {
+  text-align: center;
+}
+#container {
+  background-color: #001d3d;
+  color: aliceblue;
+  margin: auto;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 2em;
+}
+input {
+  height: 50px;
+  margin: 10px;
+  border-radius: 9px;
+  width: auto;
+  font-size: 1.5rem;
+}
+#togglePassword:hover {
+  cursor: pointer;
+}
+label {
+  font-weight: bold;
+}
+button {
+  background-color: #ffd60a;
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  color: black;
+  font-size: 1rem;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 3ms;
+}
+button:active {
+  background-color: grey;
+  color: white;
+}

@@ -7,13 +7,25 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h3>log in page</h3>
-    <label>Enter your username:</label>
-    <input type="text" id="username" placeholder="username" />
-    <label for="password">password</label>
-    <input type="password" id="password" placeholder="password" />
-    <button id="login">log in</button>
-    <p id="display"></p>
+    <header>
+      <h1><span id="M">My</span>farm</h1>
+    </header>
+
+    <div id="container">
+      <h3>log in page</h3>
+      <label>Enter your username:</label>
+      <input type="text" id="username" placeholder="username" /><br />
+      <div class="password-container">
+        <label for="password">password:</label>
+
+        <input type="password" id="password" placeholder="Enter password" />
+        <span id="togglePassword" class="eye">👁️</span>
+      </div>
+      <br />
+      <button id="login">log in</button>
+      <p id="display"></p>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>

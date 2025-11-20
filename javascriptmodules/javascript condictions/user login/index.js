@@ -1,15 +1,28 @@
 let loggedIn = false;
-whule;
+
 const username = document.getElementById("username");
 const password = document.getElementById("password");
 const login = document.getElementById("login");
+const toggle = document.getElementById("togglePassword");
+//logic to make the password vissible and not visible
+toggle.onclick = function () {
+  if (password.type === "password") {
+    password.type = "text";
+    toggle.textContent = "🙈";
+  } else {
+    password.type = "password";
+    toggle.textContent = "👁️";
+  }
+};
 login.onclick = function () {
-  let passkey = "Brian Koros";
-  let pass = "Cheplanget87";
-  pass = password.value;
-  passkey = username.value;
-  if (passkey == "Brian Koros" && pass == "Cheplanget87") {
+  const passkey = "Brian Koros";
+  const pass = "Cheplanget87";
+  const enteredpass = password.value;
+  const enteredpasskey = username.value;
+  if (enteredpasskey === passkey && enteredpass === pass) {
+    loggedIn = true;
     let text = `User access granted Welcome ${passkey} `;
+
     document.getElementById("display").innerHTML = text;
   } else {
     text = `Sorry your credentials  are incorrect try again `;
