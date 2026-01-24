@@ -21,3 +21,11 @@ function sum(...numbers) {
 }
 const total = sum(1, 3, 7, 6);
 console.log(`Your total is $${total}`);
+// Another function for storing restration details
+// first and second parameters  represent the names
+//while the third parameter represent the   rest operator
+function register(firstName, lastName, ...skills) {
+  console.log(`Name:${firstName} ${lastName}`);
+  console.log(`Skills:${skills}`);
+}
+register("Brian", "Koros", "HTML", "CSS", "JAVASCRIPT");
